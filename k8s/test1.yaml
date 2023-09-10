@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: website
-        image: shyamacr.azurecr.io/website:latest
+        image: khanecr.azurecr.io/website:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
